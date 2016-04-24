@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Score Keeper</title>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>	
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</head>
+<body>
+<div class="container text-center">
+	<h1>Score Keeper</h1>
+	<p>For arm wrestle wins, pushup contest wins, number of witty comebacks, etc.</p>
+	<h2><span id="p1-display">0</span> - <span id="p2-display">0</span></h2>
+	<button id="p1-add">+</button>
+	<button id="p1-minus">-</button>
+	<button id="p2-add">+</button>
+	<button id="p2-minus">-</button>
+	<p id="winner-display"></p>
+	<p>Playing to:</p>
+	<input type="number" value="5" class="text-center">
+	<button id="reset" class="text-center">Reset</button>
+</div>
+
+
+<script type="text/javascript" src="score.js"></script>
+</body>
+</html>
