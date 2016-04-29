@@ -3,7 +3,7 @@ var colors = [];
 var pickedColor;
 
 var squares = document.querySelectorAll(".square");
-var colorDisplay = document.querySelector("#color-display");
+var colorDisplay = document.querySelector(".color-display");
 var messageDisplay = document.querySelector("#message");
 var h1 = document.querySelector("h1");
 var resetButton = document.querySelector("#reset");
