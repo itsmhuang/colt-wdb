@@ -69,12 +69,12 @@ li:hover{
 	width: 88%;
 }
 
-span {
+#first {
 	display: none;
-	float:right;
+	float: right;
 }
 
-li:hover span {
+li:hover #first {
 	display: inline-block;
 
 }
