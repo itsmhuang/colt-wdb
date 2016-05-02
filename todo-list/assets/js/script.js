@@ -5,7 +5,7 @@ $("ul").on("click", "span", function(event) {
 	event.stopPropagation();
 });
 
-$("ul").on("click", "i:first", function() {
+$("ul").on("click", "i:first-of-type", function() {
 	$(this).next().toggleClass("completed");
 	$(this).toggleClass("fa-square-o fa-check-square-o");
 });
