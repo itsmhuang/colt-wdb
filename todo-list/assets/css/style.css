@@ -71,6 +71,7 @@ li:hover{
 
 span {
 	display: none;
+	float:right;
 }
 
 li:hover span {
