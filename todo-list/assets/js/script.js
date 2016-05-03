@@ -1,5 +1,5 @@
 $("ul").on("click", "#last", function() {
-	$(this).find("input:text").toggleClass("completed");
+	$(this).parent().find("input:text").toggleClass("completed");
 	$(this).find("i:last").toggleClass("fa-square-o fa-check-square-o");
 });
 
